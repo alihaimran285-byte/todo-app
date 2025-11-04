@@ -1,0 +1,97 @@
+.add-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  border: none;
+}
+
+.add-todo-app {
+  width: 414px;
+  height: 600px;
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
+}
+
+.add-todo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #4d4fbd;
+  height: 108px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.add-todo h1 {
+  font-size: 22px;
+}
+
+.app-input {
+  padding: 40px 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+label {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: -10px;
+}
+
+input {
+  border: none;
+  border-bottom: 1.5px solid #4d4fbd;
+  font-size: 16px;
+  padding: 5px 0;
+  outline: none;
+}
+
+.button-out {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.edit-btn {
+  margin-top: 40px;
+  height: 55px;
+  width: 170px;
+  background-color: #4d4fbd;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  align-items: center;
+
+}
+
+.edit-down {
+  margin-top: 40px;
+  height: 55px;
+  width: 170px;
+  background-color: #4d4fbd;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  align-items: center;
+}
+
+.add-btn:hover {
+  background-color: #3c3ead;
+}
